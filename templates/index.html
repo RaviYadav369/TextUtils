@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style >
+
+.form{
+    height: 570px;
+    border: 2px solid red;
+}
+.form-bar{
+    width: 40%;
+    display: block;
+    justify-content: center;
+    border: 2px solid blue;
+    margin-left: 400px;
+    margin-top: 120px;
+    background-color: whitesmoke;
+}
+.text{
+    margin-top: 10px;
+    margin-bottom: 12px;
+    width: 100%;
+ font-size: 22px;
+ text-align: center;
+ /* display: block;
+ margin: auto; */
+}
+.btn{
+    margin: 8px;
+    padding: 5px;
+    margin-top: 15px;
+    border-radius: 4px;
+}
+.textg{
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    width: 5%;
+}
+.input{
+    margin: 11px;
+}
+.inputg{
+    margin: 11px;
+    }
+.form-btn {
+    width: 98%
+}
+    </style>
+</head>
+<body>
+ <h1>Welcome to the text analyaser. Enter your text below
+ </h1>
+<form action="/punc" method="get">
+
+   <textarea name="text" style="width: 1011px; height: 256px;">
+    </textarea>
+    <input type="checkbox" name="punc">Remove Punctuation
+    <input type="checkbox" name="capatial">Capatlised All Character
+    <input type="checkbox" name="newline">Remove New Line
+    <input type="checkbox" name="extra">Remove Extra Space
+    <input type="checkbox" name="count">Character Counter
+
+ <button>Submit Now</button>
+</form>
+</body>
+</html>
